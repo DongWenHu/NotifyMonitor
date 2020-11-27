@@ -36,7 +36,7 @@ public class MyNotifyService extends NotificationListenerService {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.i("AAA", "Service is started"+"-----");
-        data = intent.getStringExtra("data");
+        data = intent.getStringExtra("data ");
 
         return super.onStartCommand(intent, flags, startId);
     }
